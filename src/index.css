@@ -1,6 +1,11 @@
 body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  background-color: #f4f4f4;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 15px;
+  background-color: #555555;
   text-align: center;
+}
+
+outOfStockClass {
+  background: #721313;
+  border-color: #460000;
 }
