@@ -1,3 +1,28 @@
-/* TODO: Style the product card container */
+.card {
+  border: 1px solid #000000;
+  padding: 15px 30px;
+  background: #ffffff;
+  width: 1000px;
+  margin: 10px auto;
+}
+.card:hover {
+  transform: translateY(-0.5px);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.06);
+}
 
-/* TODO: Add special styling for out-of-stock products */
+.name {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+}
+.price {
+  margin: 0 0 0.25rem;
+  color: #000000;
+}
+.statusIn {
+  color: #00ff37;
+  font-weight: 200;
+}
+.statusOut {
+  color: #f70202;
+  font-weight: 1000;
+}
